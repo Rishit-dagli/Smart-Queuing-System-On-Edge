@@ -19,3 +19,14 @@ The Smart Queuing System will deomnstrate how to create a video AI solution on t
 detects people in a specified area and accordingly detects the number of people in a queue. It would then also notify whether a person
 would need to change the queue to reduce congestation. I strongly recommend you to read the 
 [WRITEUP](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/WRITEUP_Choosing_the_right_hardware.pdf)
+
+## Requirements
+
+### Hardware
+
+* This project makes the use of Intel DevCloud to test on CPU, GPU, FPGA and VPU so no specific hardware is required..
+
+### Software
+
+* Intel® Distribution of OpenVINO™ toolkit 2019 R3 release.
+* Python > 3.5, 3.6
