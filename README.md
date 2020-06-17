@@ -72,3 +72,20 @@ Utilize the classroom workspace, or refer to the relevant instructions for your 
 - [Linux/Ubuntu](./linux-setup.md)
 - [Mac](./mac-setup.md)
 - [Windows](./windows-setup.md)
+
+### Get started with DevCloud
+
+Much of the Intel® DevCloud for the Edge documentation can be accessed without registering. You will need to register for an Intel®
+DevCloud for the Edge account to explore, run the examples, upload your own code and test the hardware.
+
+* On the Home page, click Sign in on the top right corner.
+* Click Register and follow the prompts to enter the information requested.
+* Within 48 hours you will receive an invitation email to your Intel® DevCloud for the Edge account.
+* For increased security, the Intel® DevCloud for the Edge is protected by 2-factor authentication. Please check your email for the 6-
+digit security code. Copy/paste the full URL from that email containing the uuid argument into a browser window. All current web 
+browsers are supported.
+* Follow the prompts to complete your Intel DevCloud account registration.
+* Once you have completed account registration, you can return any time to the Home page and click Sign in at the top right corner to 
+access your account.
+* Each time you sign in, the top right corner displays the total number of days you have access to the Intel® DevCloud for the Edge 
+resource. You can request an extension from within the portal.
