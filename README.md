@@ -17,4 +17,5 @@ Click the image above to see a video of the demo or use the link [here](https://
 
 The Smart Queuing System will deomnstrate how to create a video AI solution on the edge using Intel® hardware and software tools. The app
 detects people in a specified area and accordingly detects the number of people in a queue. It would then also notify whether a person
-would need to change the queue to reduce congestation.
+would need to change the queue to reduce congestation. I strongly recommend you to read the 
+[WRITEUP](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/WRITEUP_Choosing_the_right_hardware.pdf)
