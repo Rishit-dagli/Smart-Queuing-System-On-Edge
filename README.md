@@ -40,6 +40,19 @@ and FPS to do so.
 * Intel® Distribution of OpenVINO™ toolkit 2019 R3 release.
 * Python > 3.5, 3.6
 
+## About Intel DevCloud
+
+The Intel® DevCloud for the Edge is a cloud service designed to help developers prototype and experiment with computer vision 
+applications using the Intel® Distribution of OpenVINO™ Toolkit. Once registered, developers can access a series of Python and C++ based 
+Jupyter Notebook tutorials and sample solutions and execute them directly from a web browser. Then, developers can create their own 
+Jupyter Notebooks and quickly try them out on a variety of hosted Intel® hardware solutions specifically designed for deep learning 
+inferencing.
+
+The Intel® DevCloud for the Edge provides you with access to everything needed to begin working with sample applications, prototypes and 
+tutorials. This includes pre-trained models, source code, test input images, video and data streams. Additionally, users can apply any 
+of the pre-trained deep learning models available through the Intel® Distribution of OpenVino™ toolkit, or upload their own customized 
+pre-trained deep-learning models to develop and test their own computer vision applications.
+
 ## Setup
 
 ### Install Intel® Distribution of OpenVINO™ toolkit
