@@ -9,4 +9,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
-Deploying a Smart Queuing System on edge with Intel OpenVino Toolkit
+[![IMAGE ALT TEXT HERE](./images/retail_cover.png)](https://youtu.be/W-DWBYhrwj0)
+
+Click the image above to see a video of the demo or use the link [here](https://youtu.be/W-DWBYhrwj0)
