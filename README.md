@@ -89,3 +89,15 @@ browsers are supported.
 access your account.
 * Each time you sign in, the top right corner displays the total number of days you have access to the Intel® DevCloud for the Edge 
 resource. You can request an extension from within the portal.
+
+## Run the application
+
+### Step 1 - Person Detection
+
+The [person_detect.py](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/person_detect.py) file does the person
+counting part for you. Try to experiment around with the threshold value and see how the predictions turn up.
+
+### Step 2 - Job Submission
+
+The figure below illustrates the user workflow for code development, job submission and viewing results.
+![](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/images/How-DevCloud-works.svg)
