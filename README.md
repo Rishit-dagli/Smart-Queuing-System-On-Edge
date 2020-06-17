@@ -92,6 +92,9 @@ resource. You can request an extension from within the portal.
 
 ## Run the application
 
+The figure below illustrates the user workflow for code development, job submission and viewing results.
+![](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/images/How-DevCloud-works.svg)
+
 ### Step 1 - Person Detection
 
 The [person_detect.py](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/person_detect.py) file does the person
@@ -99,5 +102,65 @@ counting part for you. Try to experiment around with the threshold value and see
 
 ### Step 2 - Job Submission
 
-The figure below illustrates the user workflow for code development, job submission and viewing results.
-![](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/images/How-DevCloud-works.svg)
+The [queue_job.sh](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/queue_job.sh) is the utility which  
+helps in the submission of the job to multiple devices on the DevCloud.
+
+### Step 3 - Submitting the job
+
+The project majorly includes 3 notebooks for different use cases-
+
+* [Retail Scenario](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/Retail_Scenario.ipynb)
+* [Manufacturing Scenario](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/Manufacturing_Scenario.ipynb)
+* [Transportation Scenario](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/Transportation_Scenario.ipynb)
+
+Each of the above notebooks follow this process, be sure to change the original video location according to your system in each case.
+
+#### Submit to an Edge Compute Node with an Intel CPU
+
+We write a script to submit a job to an 
+[IEI Tank* 870-Q170](https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core) edge node with an [Intel Core™ i5-6500TE processor](https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-). 
+The inference workload should run on the CPU.
+
+```sh
+cpu_job_id = !qsub queue_job.sh -d . -l nodes=1:tank-870:i5-6500te -F "[model_path] CPU [original_video_path] /data/queue_param/manufacturing.npy [output_path] 2" -N store_core
+```
+
+#### Submit to an Edge Compute Node with CPU and IGPU
+
+We write a script to submit a job to an [IEI Tank* 870-Q170](https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core) edge
+node with an [Intel® Core i5-6500TE](https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-). The
+inference workload should run on the Intel® HD Graphics 530 integrated GPU.
+
+```sh
+gpu_job_id = !qsub queue_job.sh -d . -l nodes=tank-870:i5-6500te:intel-hd-530 -F "[model_path] GPU [original_video_path] /data/queue_param/manufacturing.npy [output_path] 2" -N store_core
+```
+
+#### Submit to an Edge Compute Node with a Neural Compute Stick 2
+
+We write a script to submit a job to an [IEI Tank 870-Q170](https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core) edge
+node with an [Intel Core i5-6500te CPU](https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-).
+The inference workload should run on an [Intel Neural Compute Stick 2](https://software.intel.com/en-us/neural-compute-stick) installed 
+in this node.
+
+```sh
+vpu_job_id = !qsub queue_job.sh -d . -l nodes=tank-870:i5-6500te:intel-ncs2 -F "[model_path] MYRIAD [original_video_path] /data/queue_param/manufacturing.npy [output_path] 2" -N store_core
+```
+
+#### Submit to an Edge Compute Node with IEI Mustang-F100-A10
+
+We write a script to submit a job to an [IEI Tank 870-Q170](https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core) edge
+node with an [Intel Core™ i5-6500te CPU](https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-).
+The inference workload will run on the [IEI Mustang-F100-A10 FPGA](https://www.ieiworld.com/mustang-f100/en/) card installed in this 
+node.
+
+```sh
+fpga_job_id = !qsub queue_job.sh -d . -l nodes=1:tank-870:i5-6500te:iei-mustang-f100-a10 -F "[model_path] HETERO:FPGA,CPU [original_video_path] /data/queue_param/manufacturing.npy [output_path] 2" -N store_core
+```
+
+#### Compare performance
+
+We then compare performance on these devices on these 3 metrics-
+
+* FPS
+* Model Load Time
+* Inference Time
