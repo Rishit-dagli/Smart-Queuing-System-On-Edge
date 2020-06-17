@@ -33,7 +33,7 @@ Click the image above to see a video of the demo or use the link [here](https://
     + [Submit to an Edge Compute Node with CPU and IGPU](#submit-to-an-edge-compute-node-with-cpu-and-igpu)
     + [Submit to an Edge Compute Node with a Neural Compute Stick 2](#submit-to-an-edge-compute-node-with-a-neural-compute-stick-2)
     + [Submit to an Edge Compute Node with IEI Mustang-F100-A10](#submit-to-an-edge-compute-node-with-iei-mustang-f100-a10)
-    + [Compare performance](#compare-performance)
+  * [Step 4 - Compare performance](#step-4---compare-performance)
 
 ## What it Does
 
@@ -179,7 +179,7 @@ node.
 fpga_job_id = !qsub queue_job.sh -d . -l nodes=1:tank-870:i5-6500te:iei-mustang-f100-a10 -F "[model_path] HETERO:FPGA,CPU [original_video_path] /data/queue_param/manufacturing.npy [output_path] 2" -N store_core
 ```
 
-#### Compare performance
+### Step 4 - Compare performance
 
 We then compare performance on these devices on these 3 metrics-
 
