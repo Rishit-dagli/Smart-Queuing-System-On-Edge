@@ -20,6 +20,15 @@ detects people in a specified area and accordingly detects the number of people 
 would need to change the queue to reduce congestation. I strongly recommend you to read the 
 [WRITEUP](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/WRITEUP_Choosing_the_right_hardware.pdf)
 
+## How it Works
+
+The [people counter script](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/person_detect.py) 
+will use the Inference Engine included in the Intel® Distribution of OpenVINO™ Toolkit. To test out the script and determine which 
+hardware would be best for a particular use case we use a 
+[job submission script](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/queue_job.sh) 
+Intel DevCloud to test the scripts on different hardware. To propose a hardware we take a note of the model loading time, inference time 
+and FPS to do so.
+
 ## Requirements
 
 ### Hardware
