@@ -39,3 +39,13 @@ and FPS to do so.
 
 * Intel® Distribution of OpenVINO™ toolkit 2019 R3 release.
 * Python > 3.5, 3.6
+
+## Setup
+
+### Install Intel® Distribution of OpenVINO™ toolkit
+
+Utilize the classroom workspace, or refer to the relevant instructions for your operating system for this step.
+
+- [Linux/Ubuntu](./linux-setup.md)
+- [Mac](./mac-setup.md)
+- [Windows](./windows-setup.md)
