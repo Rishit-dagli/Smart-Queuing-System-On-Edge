@@ -12,3 +12,9 @@
 [![IMAGE ALT TEXT HERE](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/images/reatil_cover.JPG)](https://youtu.be/W-DWBYhrwj0)
 
 Click the image above to see a video of the demo or use the link [here](https://youtu.be/W-DWBYhrwj0)
+
+## What it Does
+
+The Smart Queuing System will deomnstrate how to create a video AI solution on the edge using Intel® hardware and software tools. The app
+detects people in a specified area and accordingly detects the number of people in a queue. It would then also notify whether a person
+would need to change the queue to reduce congestation.
