@@ -13,6 +13,28 @@
 
 Click the image above to see a video of the demo or use the link [here](https://youtu.be/W-DWBYhrwj0)
 
+## Table of Contents
+
+- [What it Does](#what-it-does)
+- [How it Works](#how-it-works)
+- [Requirements](#requirements)
+  * [Hardware](#hardware)
+  * [Software](#software)
+- [Intel DevCloud](#intel-devcloud)
+  * [Benefits of The Intel® DevCloud for the Edge](#benefits-of-the-intel--devcloud-for-the-edge)
+- [Setup](#setup)
+  * [Install Intel® Distribution of OpenVINO™ toolkit](#install-intel--distribution-of-openvino--toolkit)
+  * [Get started with DevCloud](#get-started-with-devcloud)
+- [Run the application](#run-the-application)
+  * [Step 1 - Person Detection](#step-1---person-detection)
+  * [Step 2 - Job Submission](#step-2---job-submission)
+  * [Step 3 - Submitting the job](#step-3---submitting-the-job)
+    + [Submit to an Edge Compute Node with an Intel CPU](#submit-to-an-edge-compute-node-with-an-intel-cpu)
+    + [Submit to an Edge Compute Node with CPU and IGPU](#submit-to-an-edge-compute-node-with-cpu-and-igpu)
+    + [Submit to an Edge Compute Node with a Neural Compute Stick 2](#submit-to-an-edge-compute-node-with-a-neural-compute-stick-2)
+    + [Submit to an Edge Compute Node with IEI Mustang-F100-A10](#submit-to-an-edge-compute-node-with-iei-mustang-f100-a10)
+    + [Compare performance](#compare-performance)
+
 ## What it Does
 
 The Smart Queuing System will deomnstrate how to create a video AI solution on the edge using Intel® hardware and software tools. The app
