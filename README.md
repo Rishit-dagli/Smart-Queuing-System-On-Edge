@@ -23,7 +23,7 @@ Click the image above to see a video of the demo or use the link [here](https://
 - [Intel DevCloud](#intel-devcloud)
   * [Benefits of The Intel® DevCloud for the Edge](#benefits-of-the-intel-devcloud-for-the-edge)
 - [Setup](#setup)
-  * [Install Intel® Distribution of OpenVINO™ toolkit](#install-intel--distribution-of-openvino--toolkit)
+  * [Install Intel® Distribution of OpenVINO™ toolkit](#install-intel-distribution-of-openvino-toolkit)
   * [Get started with DevCloud](#get-started-with-devcloud)
 - [Run the application](#run-the-application)
   * [Step 1 - Person Detection](#step-1---person-detection)
