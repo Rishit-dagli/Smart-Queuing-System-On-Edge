@@ -115,7 +115,14 @@ resource. You can request an extension from within the portal.
 ## Run the application
 
 The figure below illustrates the user workflow for code development, job submission and viewing results.
+
 ![](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/images/How-DevCloud-works.svg)
+
+<details open>
+<summary>Credits</summary>
+<br>
+<a href="https://devcloud.intel.com/edge/">Intel DevCloud website</a>
+</details>
 
 ### Step 1 - Person Detection
 
