@@ -21,7 +21,7 @@ Click the image above to see a video of the demo or use the link [here](https://
   * [Hardware](#hardware)
   * [Software](#software)
 - [Intel DevCloud](#intel-devcloud)
-  * [Benefits of The Intel® DevCloud for the Edge](#benefits-of-the-intel--devcloud-for-the-edge)
+  * [Benefits of The Intel® DevCloud for the Edge](#benefits-of-the-intel-devcloud-for-the-edge)
 - [Setup](#setup)
   * [Install Intel® Distribution of OpenVINO™ toolkit](#install-intel--distribution-of-openvino--toolkit)
   * [Get started with DevCloud](#get-started-with-devcloud)
