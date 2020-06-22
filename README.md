@@ -6,7 +6,6 @@
 ![Python Syntax](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/workflows/Python%20Syntax/badge.svg)
 ![GitHub followers](https://img.shields.io/github/followers/Rishit-dagli?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/rishit_dagli?style=social)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 [![IMAGE ALT TEXT HERE](https://github.com/Rishit-dagli/Smart-Queuing-System-On-Edge/blob/master/images/reatil_cover.JPG)](https://www.youtube.com/watch?v=W-DWBYhrwj0)
