@@ -88,8 +88,6 @@ trained models to evaluate the best framework, topology, and hardware accelerati
 
 ### Install Intel® Distribution of OpenVINO™ toolkit
 
-Utilize the classroom workspace, or refer to the relevant instructions for your operating system for this step.
-
 - [Linux/Ubuntu](./linux-setup.md)
 - [Mac](./mac-setup.md)
 - [Windows](./windows-setup.md)
